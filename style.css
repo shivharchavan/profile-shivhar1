@@ -1,0 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* universal selector */
+
+  *{
+    font-family:'Roboto', sans-serif;
+
+}
+/* all lable css apply */
+label {
+    color: blueviolet;
+}
+
+/* attribut selector */
+input[type="text"]{
+    border: 2px solid orange;
+    text-transform: capitalize;
+    width: 200px;
+    padding: 10px; 
+    border-radius: 5px;
+    color: blue;
+}
+input[type="password"]{
+    border: 2px solid orange;
+    width: 200px;
+    padding: 10px; 
+    border-radius: 5px;
+}
+#jj{
+    margin-left: 45px;
+}
+input[type="submit"]:hover{
+    color: brown;
+    background-color: blue;
+
+}
+input[type="checkbox"]{
+    
+    color: blue;
+
+}

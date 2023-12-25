@@ -3,7 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
+<style>
+    body{
+        background-image: url(nature1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    ul li{
+        /* list-style-type: disc; */
+         list-style-type: none; 
+    }
+    #emoji li::before {
+content:"😊";
+    }
+
+    #para::selection{
+background-color: aqua;
+    }
+</style>
+
 </head>
 <body>
     <h1> project Details</h1>
@@ -11,19 +32,22 @@
      <h4> Name : <u> student Management </u> </h4>
     <h4\>  <u><B> Environment :  </B> </u>  Angular8 ,type script , java script(Es6) ,html5 ,css, boostrap, ,github , desktop git hub, Agil, and Jira,IDE-VS CODE </h4>
     <h4> <b> Team size :4</b></h4> <b> Duration : </b> 16 aug 2022 and still present <br>
-<b> Project Discription </b> :  This project is mainly used for student management in college ,where it is
-heps to manage student records  like student registration ,student information update and see all his or him acadamic records like score and attandance
+<b> Project Discription </b> : <p id="para"> This project is mainly used for student management in college ,where it is
+heps to manage student records  like student registration ,student information update and see all his or him acadamic records like score and attandance</p>
 <hr>
 
 <h4> Rolr and resposbilities 
      </h4>
-     Design and impliment the user interface using HTML5 and css <br>
-     work closely with backend developer for code integration <br>
-     identify and trubleshooting issue with front end code <br>
-     verked with git as version control <br>
-     using JIRA for bug traking <br>
-     implimented project using SCRUM methodalogy 
-    
+    <ul id="emoji">
 
+    
+     <li> Design and impliment the user interface using HTML5 and css </li>
+     <li>work closely with backend developer for code integration </li>
+      <li> and trubleshooting issue with front end code </li>
+     <li>worked with git as version control </li>
+      <li>JIRA for bug traking </li>
+     <li>implimented project using SCRUM methodalogy </li>
+    
+    </ul>
 </body>
 </html>
